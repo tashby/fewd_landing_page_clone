@@ -6,8 +6,11 @@ html {
 }
 body { 
 	background-color: transparent;
+<<<<<<< HEAD
 	font-family: 'Roboto', sans-serif;
 	font-weight: normal;
+=======
+>>>>>>> 215646e5cdaa76fe5bb7a20fe57b951b622e6640
 	}
 	div { 
 		border: 1px solid white;}
@@ -76,7 +79,10 @@ body {
     top: 250px;
     width: 100%;
     border: 1px solid transparent;
+<<<<<<< HEAD
     color: white;
+=======
+>>>>>>> 215646e5cdaa76fe5bb7a20fe57b951b622e6640
 }
 button {
     text-shadow: none;
@@ -85,6 +91,7 @@ button {
     padding: 1rem 1.5rem;
     background-color: orange;
     font: 2em;
+<<<<<<< HEAD
     color: white;
     font-weight: normal;
 }
@@ -109,4 +116,9 @@ h2 {
   display:inline-block;
   text-align: center;
   padding: 10px;
+=======
+    font-color: white;
+    font-style: arial;
+    font-weight: bold;
+>>>>>>> 215646e5cdaa76fe5bb7a20fe57b951b622e6640
 }

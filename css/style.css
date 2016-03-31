@@ -1,0 +1,112 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body { 
+	background-color: transparent;
+	font-family: 'Roboto', sans-serif;
+	font-weight: normal;
+	}
+	div { 
+		border: 1px solid white;}
+.top-navigation {
+	background-color: #fff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: #838994;
+	letter-spacing: 0.03em;
+	margin-top: 15px;
+	-webkit-font-smoothing: antialiased;
+
+}
+.top-navigation .links .active {
+	color: #4c5058;
+	font-weight: 500;
+}
+
+.top-navigation .links li:hover {
+	cursor: pointer;
+	color: #333333;
+}
+
+.top-navigation > .content {
+	width: 970px;
+	height: 70px;
+	margin: 0 auto;
+	padding: 0px 15px;
+}
+.logo {
+	margin-left: 0
+}
+ ul {
+	float:right;	
+}
+.links li {
+	display: inline-block;
+}
+.background {
+  /*fill background */
+  min-height: 100%;
+  min-width: 1024px;
+	
+  /*scaling */
+  width: 100%;
+  height: auto;
+	
+  /*positioning */
+  position: relative;
+  top: 10;
+  left: 0;
+}
+
+@media screen and (max-width: 1024px) { /* Specific to this particular image */
+  .background {
+    left: 50%;
+    margin-left: -512px;   /* 50% */
+    position: relative;
+    z-index: -1;
+  }
+}
+.words {
+    position: absolute;
+    text-align: center;
+    left: 0;
+    top: 250px;
+    width: 100%;
+    border: 1px solid transparent;
+    color: white;
+}
+button {
+    text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 1rem 1.5rem;
+    background-color: orange;
+    font: 2em;
+    color: white;
+    font-weight: normal;
+}
+
+h2 {
+	text-align: center;
+}
+.icons {
+	text-align: center;
+}
+.icons img {
+	display: inline;
+	  width: 100px;
+    height: 100px;
+}
+.icons div {
+	display:inline-block;
+	text-align: center;	
+	padding: 40px;
+}
+.socialcontent span {
+  display:inline-block;
+  text-align: center;
+  padding: 10px;
+}
